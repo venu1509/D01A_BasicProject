@@ -20,5 +20,6 @@ from timerApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.time_display)
+    path('', views.time_display),
+    path('name/',views.name_display),
 ]
